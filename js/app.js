@@ -201,10 +201,10 @@ window.addEventListener('DOMContentLoaded', () => {
   renderFavoriteColor();
 
   // template container 랜더링 하기
-  if (!templateLists) {
-    templateLists = [];
-    return;
-  }
+  // if (!templateLists) {
+  //   templateLists = [];
+  //   return;
+  // }
 
   templateRender();
 });
